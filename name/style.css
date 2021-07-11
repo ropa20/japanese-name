@@ -1,0 +1,75 @@
+body{
+    background-image:  url("img.jpg");
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     max-width: 100%;
+     height: auto;
+     
+ }
+.container{
+   
+    color:antiquewhite;
+    padding-left: 100px;
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+    height: 50%;
+   
+}
+.result
+{
+    
+    background-image: url("koi1.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 0px 500px 700px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    height: auto;
+    
+    transform: translate(-50%, -50%);
+}
+
+h1
+{
+    color:antiquewhite;
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+}
+#generate{
+ 
+    background-color: coral;
+    border: antiquewhite;
+    border-radius: 12px;
+    color: antiquewhite;
+    padding: 0px 15px 3px 15px;
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+}
+
+textarea{
+   
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    outline: none;
+    border: none;
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color:coral;
+    text-align: center;
+    text-shadow: 1px 1px 0 antiquewhite;
+}
+footer
+{
+    top: 80%;
+    padding: 10px 20px;
+    background: antiquewhite;
+    opacity: 0.5;
+}
